@@ -7,7 +7,7 @@
 name: All This
 
 # Short bio or description (displayed in the header)
-description: Writing is Thinking
+description: Programming and stuff.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -16,7 +16,7 @@ baseurl : ''# does not include hostname
 
 title   : All This
 
-description: Writing is Thinking
+description: Programming and stuff.
 
 plugins:
   - jekyll-feed
