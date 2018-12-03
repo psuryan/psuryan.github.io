@@ -2,11 +2,13 @@
 layout: post
 author: psuryan
 ---
-A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.
+The simplest way to install Jekyll is from [Homebrew](https://brew.sh/).
+```sh
+brew update
+brew install rbenv
+ex -sc '1i|export PATH=$HOME/.rbenv/bin:$HOME/.rbenv/shims:/usr/local/bin:$PATH' -cx ~/.bash_profile
+rbenv local 2.5.3
+gem install jekyll
+gem install bundler
+```
 
-In some countries, bananas used for cooking may be called "plantains",
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.
