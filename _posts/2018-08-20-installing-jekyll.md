@@ -11,4 +11,3 @@ rbenv local 2.5.3
 gem install jekyll
 gem install bundler
 ```
-
