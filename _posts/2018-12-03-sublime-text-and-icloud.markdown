@@ -26,13 +26,13 @@ So that, my Jekyll configuration looks like this
 }
 ```
 
-Also, following this[https://gist.github.com/elilien/df990641b0a1b8e4a179], I have moved all the sublime configuration to the iCloud so that I can sync them between the macs.
+Also, following [this](https://gist.github.com/elilien/df990641b0a1b8e4a179), I have moved all the sublime configuration to the iCloud so that I can sync them between the macs.
 
 ```sh
-mkdir -p /Users/partha/Library/Mobile\ Documents/com~apple~CloudDocs/SublimeText/sync/
+mkdir -p /Users/$USER/Library/Mobile\ Documents/com~apple~CloudDocs/SublimeText/sync/
 cd ~/Library/Application\ Support/Sublime\ Text\ 3/
-mv Installd\ Packages /Users/partha/Library/Mobile\ Documents/com~apple~CloudDocs/SublimeText/sync/
-ln -s /Users/partha/Library/Mobile\ Documents/com~apple~CloudDocs/SublimeText/sync/Installed\ Packages
-mv Packages /Users/partha/Library/Mobile\ Documents/com~apple~CloudDocs/SublimeText/sync/
-ln -s /Users/partha/Library/Mobile\ Documents/com~apple~CloudDocs/SublimeText/sync/Packages
+mv Installd\ Packages /Users/$USER/Library/Mobile\ Documents/com~apple~CloudDocs/SublimeText/sync/
+ln -s /Users/$USER/Library/Mobile\ Documents/com~apple~CloudDocs/SublimeText/sync/Installed\ Packages
+mv Packages /Users/$USER/Library/Mobile\ Documents/com~apple~CloudDocs/SublimeText/sync/
+ln -s /Users/$USER/Library/Mobile\ Documents/com~apple~CloudDocs/SublimeText/sync/Packages
 ```
