@@ -46,7 +46,6 @@ The next step is to create a [build system] and attach it to the `Project`. To d
         "encoding": "UTF-8",
         "working_dir": "<path_to_the_repo_of_blog>"
     }]
-
 ```
 The `jekyll-build-script.sh` contains the commands that you would normally use to `build` and `serve` in command line.
 
