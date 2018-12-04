@@ -1,4 +1,9 @@
+- name: Latest
+  link: /blog/latest.html
+- name: Categories
+  link: /blog/category.html
+- name: Tags
+  link: /blog/tag.html
 - name: About
   link: /about.html
-- name: Blog
-  link: /blog.html
+

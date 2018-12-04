@@ -1,6 +1,8 @@
 ---
 title: Sublime Text and iCloud
 layout: post
+category: Blog-meta
+tags: [blog, jekyll, sublimetext, icloud]
 ---
 Many plug-ins such as Jekyll don't really understand the configuration paths if they are located on the iCloud Drive (com~apple~CloudDocs). I have found it easier to just create a symlink in my local drive to the iCloud Drive like the following
 
