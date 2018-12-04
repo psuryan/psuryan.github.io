@@ -1,5 +1,5 @@
-- name: Latest
-  link: /blog/latest.html
+- name: List
+  link: /blog/list.html
 - name: Categories
   link: /blog/category.html
 - name: Tags

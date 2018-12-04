@@ -35,7 +35,7 @@ Here we generate all the categories.
 {% for ct in cats %}
 <a href="#{{ ct | slugify }}" class="category-mark" style="color:#999;text-decoration: none;"> {{ ct }} </a> &nbsp;&nbsp;
 {% endfor %}
-
+<hr/>
 {% for ct in cats %}
 <h2 id="{{ ct | slugify }}">{{ ct }}</h2>
 <ul class="category-list">
