@@ -5,7 +5,7 @@ layout: post
 It is possible to create a [Jekyll] based blog and maintain it with just terminal based tools (`vi` etc.). But having a decent text editor such as [Sublime Text] makes this much less of a chore. Assuming that you have both Jekyll and Sublime Text installed already, here is how you can configure Sublime Text.
 
 
-# Jekyll Plug-in#
+## Jekyll Plug-in ##
 Enter [sublime-jekyll], a Jekyll plug-in for Sublime Text. The first step is into install the Sublime Text package manager, `Package Control`. 
     First invoke `Command Palette` by pressing *`↑⌘P`
     Type `Package Control`
@@ -36,7 +36,7 @@ Once the plug-in is successfully installed, it is time to configure it. Go to `P
 ```
 Save the file with a name like `blog.sublime-project`. Once the file is saved, you should be able to see all your repository folders (created earlier in command line by Jekyll) appear on the left panel of the editor if you have the show side bar enabled from the `View` menu. Sublime calls this a `Project`. The plug-in allows one to create drafts and promote / publish them (and a lot more [capabilities]) from Sublime Text. The Jekyll [tutorial] that I used to create the blog didn't have placeholders for drafts. I manually created a folder called `_drafts` in my repository.  
 
-# Build System #
+## Build System ##
 The next step is to create a [build system] and attach it to the `Project`. To do this, we can add the following snippet to the configuration above
 ```json
     "build_systems": [{
