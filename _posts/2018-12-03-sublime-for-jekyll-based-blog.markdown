@@ -34,7 +34,7 @@ Once the plug-in is successfully installed, it is time to configure it. Go to `P
     }
 }
 ```
-Save the file with a name like `blog.sublime-project`. Once the file is saved, you should be able to see all your repository folders (created earlier in command line by Jekyll) appear on the left panel of the editor if you have the show side bar enabled from the `View` menu. Sublime calls this a `Project`. The plug-in allows one to create drafts and promote / publish them. The Jekyll [tutorial] that I used to create the blog didn't have placeholders for drafts. I manually created a folder called `_drafts` in my repository.  
+Save the file with a name like `blog.sublime-project`. Once the file is saved, you should be able to see all your repository folders (created earlier in command line by Jekyll) appear on the left panel of the editor if you have the show side bar enabled from the `View` menu. Sublime calls this a `Project`. The plug-in allows one to create drafts and promote / publish them (and a lot more [capabilities]) from Sublime Text. The Jekyll [tutorial] that I used to create the blog didn't have placeholders for drafts. I manually created a folder called `_drafts` in my repository.  
 
 # Build System #
 The next step is to create a [build system] and attach it to the `Project`. To do this, we can add the following snippet to the configuration above
@@ -64,3 +64,4 @@ Once this is setup, launching the local server is as easy as hitting `⌘ + b` i
 [sublime-jekyll]: https://packagecontrol.io/packages/Jekyll
 [tutorial]: https://jekyllrb.com/docs/step-by-step/01-setup/
 [build system]: https://www.sublimetext.com/docs/3/build_systems.html
+[capabilities]: https://sublime-jekyll.readthedocs.io/en/latest/commands.html
