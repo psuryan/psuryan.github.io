@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: About
 ---
-# About
 
-Later.
+
+Later. Thanks for stopping by!
