@@ -1,0 +1,19 @@
+---
+title: Test
+layout: post
+---
+{% mermaid %}
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+    A-->D;
+    B-->C;
+
+{% endmermaid %}
+
+$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
+
+{% gist parkr/c08ee0f2726fd0e3909d %}
+
