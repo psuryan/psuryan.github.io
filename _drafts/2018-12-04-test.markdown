@@ -4,16 +4,10 @@ layout: post
 ---
 {% mermaid %}
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-    A-->D;
-    B-->C;
-
+    A-->V=A+U;
+    B-->U=B*C;
+    C-->U=B*C;   
+    U=B*C-->V=A+U;
+    V=A+U-->J=3*V;
+   
 {% endmermaid %}
-
-$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
-
-{% gist parkr/c08ee0f2726fd0e3909d %}
-

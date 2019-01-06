@@ -9,7 +9,7 @@ It is possible to create a [Jekyll] based blog and maintain it with just termina
 
 ## Jekyll Plugin ##
 Enter [sublime-jekyll], a Jekyll Plugin for Sublime Text. The first step is into install the Sublime Text package manager, `Package Control`. 
-    First invoke `Command Palette` by pressing *`↑⌘P`
+    First invoke `Command Palette` by pressing `↑+⌘+P`
     Type `Package Control`
     In the drop down, select `Install Package`
     In the next search window type "jekyll" and press `⏎`
