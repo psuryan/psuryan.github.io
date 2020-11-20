@@ -29,11 +29,12 @@ version: 1.0.0
 author:
   name: psuryan
   description:
-  #gravatar:
+  gravatar: 46784c11201096febbebf17f7f9584b2
   contact:
     linkedin:  https://www.linkedin.com/in/psuryan
-    github:    https://github.com/psuryan
+    github: https://github.com/psuryan
     stack-overflow: https://stackoverflow.com/story/psuryan
+    orcid: https://orcid.org/0000-0002-8619-2976
     # facebook:  <hide>
     # twitter:   
     # weibo:     
