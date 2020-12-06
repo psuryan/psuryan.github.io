@@ -11,7 +11,7 @@ summary:
 
 
 It is a single HTML file with no additional dependencies after all! But don't let that simplicity fool you - it is packed with [features](https://tiddlywiki.com/#Features) from audio support to encryption. 
-And then there are [tons of](https://tiddlywiki.com/static/Plugins.html) [plugins](https://tid.li/tw5/plugins.html) contributed by the community. When compared to the [many](https://getnotion.com/) [paid](https://roamresearch.com/) solutions for knowledge organization, it quite powerful but costs nothing!
+And then there are [tons of](https://tiddlywiki.com/static/Plugins.html) [plugins](https://tid.li/tw5/plugins.html) contributed by the community. When compared to the [many](https://getnotion.com/) [paid](https://roamresearch.com/) solutions for knowledge organization, it is quite powerful but costs nothing!
 Getting started with Tiddlywiki could be quite changing. But [this YouTube video tutorial](https://youtu.be/ZMGpAW0z_Bo) is very helpful.
 
 You can also use the Tiddlywiki for collaborative editing using the awesome [TiddlyServer](https://arlen22.github.io/tiddlyserver/) project. There are docker wrappers available such as [this one](https://github.com/djmaze/tiddlywiki-docker). 
