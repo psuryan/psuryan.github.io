@@ -6,7 +6,7 @@ category: Tips
 tags: [tiddlywiki]
 summary: 
 ---
-[Tiddlywiki](tiddlywiki.com) is an amazing piece of software. It promises being future proof as a feature:
+[Tiddlywiki](https://tiddlywiki.com) is an amazing piece of software. It promises being future proof as a feature:
 > If you're starting to use TiddlyWiki at the beginning of your career you can be confident that it will carry you through to retirement.
 
 
