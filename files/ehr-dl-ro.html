@@ -128,6 +128,8 @@ Error message and password prompt
 
 <li>$:/config/HideSidebarOnStartup</li>
 
+<li>$:/config/MissingLinks</li>
+
 <li>$:/config/Navigation/openLinkFromInsideRiver</li>
 
 <li>$:/config/Navigation/openLinkFromOutsideRiver</li>
@@ -157,8 +159,6 @@ Error message and password prompt
 <li>$:/config/shortcuts/save-tiddler</li>
 
 <li>$:/config/shortcuts/stamp</li>
-
-<li>$:/config/TextEditor/EnableToolbar</li>
 
 <li>$:/config/Tiddlers/TitleLinks</li>
 
@@ -312,9 +312,27 @@ Error message and password prompt
 
 <li>$:/temp/tmap/currentTiddler</li>
 
-<li>$:/temp/tmap/holders/25e4c751-c48a-47ac-be55-c0260e655847</li>
+<li>$:/temp/tmap/holders/0dd9d7ad-2ead-49c5-a13e-93ecb9015f65</li>
 
-<li>$:/temp/tmap/holders/2eaab143-46d0-46bb-8740-db72770333a7</li>
+<li>$:/temp/tmap/holders/0f5d07ad-cb63-44f1-9944-9413179bbca3</li>
+
+<li>$:/temp/tmap/holders/1dcdf4c5-dc38-4b0d-a84b-0820475472ca</li>
+
+<li>$:/temp/tmap/holders/1e2f9718-3885-46b0-bc59-e4e9bbb42e16</li>
+
+<li>$:/temp/tmap/holders/3afe7b0f-8a75-472f-9908-cd5f63e7b4b2</li>
+
+<li>$:/temp/tmap/holders/413f4500-6a8c-4173-bc06-5c55b1d11641</li>
+
+<li>$:/temp/tmap/holders/82cfe7b3-9439-4f8c-8e2f-23251624d568</li>
+
+<li>$:/temp/tmap/holders/93ca8ef7-00ef-4109-9f8c-9af3522c3ee1</li>
+
+<li>$:/temp/tmap/holders/c9973b9e-a4de-4085-815d-08c7041a5951</li>
+
+<li>$:/temp/tmap/holders/e0e7b431-ffcc-4d14-bb07-07285c0bd67d</li>
+
+<li>$:/temp/tmap/holders/f8332456-f57c-455d-bb00-443acf79314f</li>
 
 <li>$:/temp/tmap/nodes/Mind Map</li>
 
@@ -428,11 +446,14 @@ exports.startup = function() {
 <div created="20180126085016306" modified="20180126085016306" title="$:/config/DefaultSidebarTab">
 <pre>Contents</pre>
 </div>
-<div created="20201223154944891" modified="20201223154944891" title="$:/config/DragAndDrop/Enable">
+<div created="20201223160139230" modified="20201223160139230" title="$:/config/DragAndDrop/Enable">
 <pre>no</pre>
 </div>
-<div bag="default" created="20151007165524815" creator="Tobias Beer" modified="20201223154927245" revision="0" tags="" title="$:/config/HideSidebarOnStartup" type="text/vnd.tiddlywiki">
+<div bag="default" created="20151007165524815" creator="Tobias Beer" modified="20201223160130910" revision="0" tags="" title="$:/config/HideSidebarOnStartup" type="text/vnd.tiddlywiki">
 <pre>yes</pre>
+</div>
+<div created="20201223160148041" modified="20201223160148041" title="$:/config/MissingLinks">
+<pre>no</pre>
 </div>
 <div title="$:/config/Navigation/openLinkFromInsideRiver">
 <pre>above</pre>
@@ -479,16 +500,13 @@ exports.startup = function() {
 <div created="20180126084935726" modified="20180126084937934" title="$:/config/shortcuts/stamp">
 <pre>ctrl-shift-S</pre>
 </div>
-<div created="20201223154955466" modified="20201223154955466" title="$:/config/TextEditor/EnableToolbar">
-<pre>no</pre>
-</div>
 <div created="20180126084332201" modified="20180126084354695" title="$:/config/Tiddlers/TitleLinks">
 <pre>yes</pre>
 </div>
 <div created="20180126084400149" modified="20180126084405826" title="$:/config/Toolbar/ButtonClass">
 <pre>tc-btn-invisible</pre>
 </div>
-<div created="20201223154959741" modified="20201223154959741" title="$:/config/Toolbar/Icons">
+<div created="20201223160154314" modified="20201223160154314" title="$:/config/Toolbar/Icons">
 <pre>no</pre>
 </div>
 <div created="20160410201306695" creator="twMat" modified="20170613122052071" modifier="twMat" scroll-offset="20px" title="$:/config/topStoryView">
@@ -503,7 +521,7 @@ exports.startup = function() {
 <div created="20170613162711506" creator="twMat" modified="20180616123041276" modifier="twMat" tags="setup" title="$:/config/ViewToolbarButtons/Visibility/$:/plugins/TWaddle/SideEditor/Button">
 <pre>hide</pre>
 </div>
-<div created="20160112001322620" modified="20201223154953542" title="$:/config/WikiParserRules/Inline/wikilink">
+<div created="20160112001322620" modified="20201223160144190" title="$:/config/WikiParserRules/Inline/wikilink">
 <pre>disable</pre>
 </div>
 <div color="#bbb" created="20201222231309124" icon="$:/core/images/options-button" modified="20201222231309124" title="$:/ControlPanel">
@@ -10181,8 +10199,8 @@ very-muted-foreground: #888888</pre>
   &quot;y&quot;: -290
  },
  &quot;b5c065bf-dd09-4bb6-a401-456e19567f8b&quot;: {
-  &quot;x&quot;: -663,
-  &quot;y&quot;: -297
+  &quot;x&quot;: -689,
+  &quot;y&quot;: -278
  },
  &quot;c9ee4846-67df-404d-976e-5930dae484c5&quot;: {
   &quot;x&quot;: -339,
@@ -10546,13 +10564,13 @@ very-muted-foreground: #888888</pre>
     }
 }</pre>
 </div>
-<div created="20170322105910944" list-before="$:/core/ui/TopBar/menu" modified="20201223154944891" tags="-$:/tags/TopRightBar" title="$:/plugins/tg/sro/publish-button">
+<div created="20170322105910944" list-before="$:/core/ui/TopBar/menu" modified="20201223160139230" tags="-$:/tags/TopRightBar" title="$:/plugins/tg/sro/publish-button">
 <pre>&lt;$button class=&quot;tc-btn-invisible&quot; tooltip=&quot;Publish simple read-only&quot;&gt;
 &lt;$action-sendmessage $message=&quot;tm-open-window&quot; $param=&quot;$:/plugins/tg/sro/publish&quot; height=&quot;700px&quot; width=&quot;500px&quot;/&gt;
 {{$:/plugins/tg/sro/images/publish}}
 &lt;/$button&gt;</pre>
 </div>
-<div created="20170322105952964" list-after="$:/themes/tiddlywiki/vanilla/base" modified="20201223154944891" tags="$:/tags/Stylesheet" title="$:/plugins/tg/sro/readonly-styles" type="text/css">
+<div created="20170322105952964" list-after="$:/themes/tiddlywiki/vanilla/base" modified="20201223160139230" tags="$:/tags/Stylesheet" title="$:/plugins/tg/sro/readonly-styles" type="text/css">
 <pre>/* Readonly styles for buttons */
 
 svg.tc-image-new-button,
@@ -10581,7 +10599,7 @@ svg.tgc-publish-sro {
 }
 </pre>
 </div>
-<div created="20181221200154739" modified="20201223154944891" tags="$:/tags/SideBarSegment" title="$:/plugins/tg/sro/search">
+<div created="20181221200154739" modified="20201223160139230" tags="$:/tags/SideBarSegment" title="$:/plugins/tg/sro/search">
 <pre>&lt;div class=&quot;tc-sidebar-lists_&quot;&gt;
 
 &lt;$set name=&quot;searchTiddler&quot; value=&quot;$:/temp/search&quot;&gt;
@@ -10917,7 +10935,7 @@ Click the red @@color:red; load@@ button and wait 10-20 seconds until step 3 app
 <div created="20201222231205177" modified="20201222231205177" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Advanced</pre>
 </div>
-<div created="20201223154943377" modified="20201223155003090" title="$:/state/tab--794069342">
+<div created="20201223160137004" modified="20201223160158897" title="$:/state/tab--794069342">
 <pre>$:/plugins/tg/sro/save</pre>
 </div>
 <div created="20180426143856814" creator="Eukaryote" modified="20201222231207997" modifier="Eukaryote" title="$:/state/tab-1749438307">
@@ -10932,16 +10950,16 @@ Click the red @@color:red; load@@ button and wait 10-20 seconds until step 3 app
 <div created="20180426143907996" modified="20180426143907996" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/TiddlySpot</pre>
 </div>
-<div created="20180426144005481" creator="Eukaryote" modified="20201223154933716" modifier="Eukaryote" title="$:/state/tab/sidebar--1835078512">
-<pre>$:/core/ui/SideBar/Tools</pre>
+<div created="20180426144005481" creator="Eukaryote" modified="20201223000741418" modifier="Eukaryote" title="$:/state/tab/sidebar--1835078512">
+<pre>$:/plugins/felixhayashi/tiddlymap/hook/editor</pre>
 </div>
 <div created="20160407102858708" creator="t" modified="20201222203552195" modifier="Eukaryote" title="$:/status/UserName">
 <pre></pre>
 </div>
-<div list="Concepts" title="$:/StoryList">
+<div list="$:/config/HideSidebarOnStartup $:/Import Concepts" title="$:/StoryList">
 <pre></pre>
 </div>
-<div modified="20201223154935332" title="$:/temp/focussedTiddler">
+<div modified="20201223160154811" title="$:/temp/focussedTiddler">
 <pre>Concepts</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -11004,10 +11022,37 @@ Click the red @@color:red; load@@ button and wait 10-20 seconds until step 3 app
 <div title="$:/temp/tmap/currentTiddler">
 <pre>Concepts</pre>
 </div>
-<div title="$:/temp/tmap/holders/25e4c751-c48a-47ac-be55-c0260e655847">
+<div title="$:/temp/tmap/holders/0dd9d7ad-2ead-49c5-a13e-93ecb9015f65">
 <pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Mind Map</pre>
 </div>
-<div title="$:/temp/tmap/holders/2eaab143-46d0-46bb-8740-db72770333a7">
+<div title="$:/temp/tmap/holders/0f5d07ad-cb63-44f1-9944-9413179bbca3">
+<pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Mind Map</pre>
+</div>
+<div title="$:/temp/tmap/holders/1dcdf4c5-dc38-4b0d-a84b-0820475472ca">
+<pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Mind Map</pre>
+</div>
+<div title="$:/temp/tmap/holders/1e2f9718-3885-46b0-bc59-e4e9bbb42e16">
+<pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Mind Map</pre>
+</div>
+<div title="$:/temp/tmap/holders/3afe7b0f-8a75-472f-9908-cd5f63e7b4b2">
+<pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Mind Map</pre>
+</div>
+<div title="$:/temp/tmap/holders/413f4500-6a8c-4173-bc06-5c55b1d11641">
+<pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Mind Map</pre>
+</div>
+<div title="$:/temp/tmap/holders/82cfe7b3-9439-4f8c-8e2f-23251624d568">
+<pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Mind Map</pre>
+</div>
+<div title="$:/temp/tmap/holders/93ca8ef7-00ef-4109-9f8c-9af3522c3ee1">
+<pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Mind Map</pre>
+</div>
+<div title="$:/temp/tmap/holders/c9973b9e-a4de-4085-815d-08c7041a5951">
+<pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Mind Map</pre>
+</div>
+<div title="$:/temp/tmap/holders/e0e7b431-ffcc-4d14-bb07-07285c0bd67d">
+<pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Mind Map</pre>
+</div>
+<div title="$:/temp/tmap/holders/f8332456-f57c-455d-bb00-443acf79314f">
 <pre>$:/plugins/felixhayashi/tiddlymap/graph/views/Mind Map</pre>
 </div>
 <div list="[[Don’t use longitudinal information typically]] [[Built from single provider]] [[EHR Models]] [[Scalable and accurate deep learning with electronic health records]] Bootstrapping [[split sample]] Validation Modeling [[Boosted time-based decision stumps]] LSTM Deeplearning [[Ridge regression]] LASSO [[Regularized regression]] [[Gradient Boosting Machines]] [[Random forests]] [[Bayesian methods]] [[Cox regression]] [[logistic regression]] [[Generalized linear models]] Models" title="$:/temp/tmap/nodes/Mind Map">
@@ -11152,8 +11197,10 @@ Click the red @@color:red; load@@ button and wait 10-20 seconds until step 3 app
 <div created="20201223004025677" modified="20201223004025677" tags="Concepts" title="Built from single provider" tmap.edges="{&quot;076490db-5e00-48dd-91fe-fccbce69e54e&quot;:{&quot;to&quot;:&quot;d3236e2f-0d67-472e-8339-92f1861c6cd7&quot;,&quot;type&quot;:&quot;are&quot;}}" tmap.id="56abac3d-c3e3-408c-9d84-334cdda138a6">
 <pre></pre>
 </div>
-<div created="20201222203655494" modified="20201223010242378" tags="" title="Concepts" tmap.id="11aea6b8-a003-4121-acd7-a45331c18b68">
-<pre>&lt;$tmap view=&quot;Mind Map&quot; height=&quot;800px&quot; show-buttons=&quot;false&quot;&gt;&lt;/$tmap&gt;
+<div created="20201222203655494" modified="20201223160025154" tags="" title="Concepts" tmap.id="11aea6b8-a003-4121-acd7-a45331c18b68">
+<pre>&lt;$tmap view=&quot;Mind Map&quot; height=&quot;800px&quot; show-buttons=&quot;false&quot; design=&quot;plain&quot;&gt;&lt;/$tmap&gt;
+
+
 
 
 
