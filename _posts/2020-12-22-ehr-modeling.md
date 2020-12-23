@@ -9,7 +9,7 @@ summary:
 
 Short notes from the paper [Scalable and accurate deep learning for electronic health records](https://arxiv.org/abs/1801.07860).
 <div id="included">
-  <iframe height="800" width="800" scrolling="yes"
+  <iframe height="890" width="800" scrolling="no"
     src="/files/ehr-dl-ro.html"
     frameborder="no" allowtransparency="true" allowfullscreen="true">
   </iframe>
