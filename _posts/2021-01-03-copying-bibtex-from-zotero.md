@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Copying Citation From Zotero in BibTex Format
+title: Copying Citation from Zotero in BibTex Format
 date: 2021-01-03 15:17
 category: productivity
 tags: [zotero, bibtex, latex]
 ---
 
-Zotero is my favorite application for organizing, sharing, and generating bibliographies for research papers. There are many other similar reference managers such as [Mendeley](https://www.mendeley.com/download-desktop-new/) and [EndNote](https://endnote.com/) with superior features. They are either not open source or free (as in beer) or both. . 
+[Zotero](https://www.zotero.org/) is my favorite application for organizing, sharing, and generating bibliographies for research papers. There are many other similar reference managers such as [Mendeley](https://www.mendeley.com/download-desktop-new/) and [EndNote](https://endnote.com/) with superior features. They are either not open source or free (as in beer) or both. . 
 
 Zotoro gets the job done for me. It has got a lot of useful features. One such function is that a citation can be exported to
 clipboard so that it can be pasted into a document. This can be achieved using `⌘ + ⇧ + c` keyboard shortcut. 
