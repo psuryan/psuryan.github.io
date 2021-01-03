@@ -1,7 +1,7 @@
 ---
 title: Multiple Git Accounts
 layout: post
-category: Tips
+category: productivity
 tags: [git]
 ---
 Often times people have two GitHub accounts - one for work and personal. Good post on how to manage these accounts [here](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574).

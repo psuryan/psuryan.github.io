@@ -2,7 +2,7 @@
 layout: post
 title: Tiddlywiki 
 date: 2020-12-05
-category: Tips
+category: productivity
 tags: [tiddlywiki]
 summary: 
 ---

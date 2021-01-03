@@ -2,7 +2,7 @@
 layout: post
 title: 
 date: 2021-01-02 18:14
-category: Tips
+category: productivity
 tags: [alfred]
 ---
 [Alfred](https://www.alfredapp.com/) is among the first things that I install when setting up a new Mac. 

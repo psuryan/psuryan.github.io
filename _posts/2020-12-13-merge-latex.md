@@ -2,7 +2,7 @@
 layout: post
 title: Merging Multiple Latex Files
 date: 2020-12-13 11:36
-category: Tips 
+category: productivity 
 tags: [latex, merge]
 ---
 

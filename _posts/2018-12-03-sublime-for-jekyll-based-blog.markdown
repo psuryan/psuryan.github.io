@@ -1,7 +1,7 @@
 ---
 title: Sublime Text for Jekyll based blog
 layout: post
-category: Blog-meta
+category: blog-meta
 tags: [blog, jekyll, sublimetext]
 ---
 It is possible to create a [Jekyll] based blog and maintain it with just terminal based tools (`vi` etc.). But having a decent text editor such as [Sublime Text] makes this much less of a chore. Assuming that you have both Jekyll and Sublime Text installed already, here is how you can configure Sublime Text.

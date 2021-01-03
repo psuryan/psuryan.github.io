@@ -2,7 +2,7 @@
 layout: post
 title: Embed Pure HTML Inside a Jekyll Blog
 date: 2020-12-21
-category: Blog-meta 
+category: blog-meta 
 tags: [blog, jekyll, html]
 ---
 

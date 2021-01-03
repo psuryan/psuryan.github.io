@@ -1,7 +1,7 @@
 ---
 layout: post
 author: psuryan
-category: Blog-meta
+category: blog-meta
 tags: [blog, jekyll]
 ---
 The simplest way to install Jekyll is using [Homebrew](https://brew.sh/) if the operating system is MacOS. Assuming that the Homebrew is already installed, we need make sure that it is up-to-date. 
