@@ -2,7 +2,7 @@
 layout: post
 title: 
 date: 2020-12-22
-category: Paper-review
+category: paper-summary
 tags: [ehr, paper, mindmap]
 summary: 
 ---
