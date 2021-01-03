@@ -1,6 +1,6 @@
 # Site Info
 title: All This
-tagline: 'Programing, Machine Learning & NLP'
+tagline: 'Programming, Machine Learning & NLP'
 description: ''
 baseurl: ""
 url: http://psuryan.github.io
@@ -29,7 +29,7 @@ version: 1.0.0
 author:
   name: psuryan
   description:
-  gravatar: 46784c11201096febbebf17f7f9584b2
+  gravatar: 485a2815144d1865395b34f6f0e0970a
   contact:
     linkedin:  https://www.linkedin.com/in/psuryan
     github: https://github.com/psuryan
