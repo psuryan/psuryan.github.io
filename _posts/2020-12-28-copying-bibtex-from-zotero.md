@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Copying Citation from Zotero in BibTex Format
-date: 2021-01-03 15:17
+date: 2020-12-28
 category: productivity
 tags: [zotero, bibtex, latex]
 ---
