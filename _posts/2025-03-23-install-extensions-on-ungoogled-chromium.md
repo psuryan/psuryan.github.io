@@ -43,7 +43,7 @@ This lets you install extensions from the Chrome Web Store, bypassing the defaul
 https://github.com/NeverDecaf/chromium-web-store
 2. Click the green Code > Download ZIP button, then extract the ZIP file.
 3. In Ungoogled Chromium:
-   * Navigate to chrome://extensions/
+   * Navigate to `chrome://extensions/`
    * Enable Developer mode (top right toggle).
    * Click Load unpacked, and select the folder you just extracted.
 
