@@ -14,10 +14,13 @@ Need to see who contributed to a specific folder or module in your codebase? Her
 git log --pretty=format:'%h,%ad,%an,"%s"' --date=short -- path/to/module
 ```
 
-Example, 
+For example:
+
 ```sh
 git log --pretty=format:'%h,%ad,%an,"%s"' --date=short -- my_app/data_loader
 ```
+
+This may yield something like, 
 
 ```sh
 a1b2c3d,2024-11-02,Alice Johnson,"Refactored batch loading logic"
